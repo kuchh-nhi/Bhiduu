@@ -1,45 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Tera Kya Hoga Re!</title>
+  <meta charset="UTF-8">
+  <title>Bhiduu Special</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff3f3;
       text-align: center;
-      background-color: #ffe6e6;
+      padding: 30px;
+      color: #333;
     }
     h1 {
-      color: red;
+      color: #e6005c;
     }
-    .roast {
-      margin-top: 50px;
-      font-size: 20px;
+    .message {
+      margin-top: 30px;
+      font-size: 18px;
     }
     .video-container {
-      margin-top: 60px;
+      margin: 40px auto;
     }
     video {
       width: 80%;
       max-width: 600px;
-      border: 2px solid red;
-      border-radius: 10px;
+      border-radius: 12px;
+      border: 2px solid #e6005c;
+    }
+    form {
+      margin-top: 40px;
+    }
+    input, textarea {
+      width: 80%;
+      max-width: 500px;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 25px;
+      background-color: #e6005c;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #cc0052;
     }
   </style>
 </head>
 <body>
-  <h1>😂 Abey <span style="color:blue">Chomu</span>!</h1>
-  <div class="roast">
-    <p>Tune socha QR code se kuch cool milega?</p>
-    <p>Mil gaya na... apni aukaat ka live telecast 😎</p>
-    <p>Gaali of the Day: "Tera dimaag Windows Vista pe chal raha hai!"</p>
+
+  <h1>Hey Bhiduu! 💖</h1>
+
+  <div class="message">
+    <p>This one’s from the heart. You matter. Always have, always will.</p>
+    <p>Here’s a small surprise — just something to make you smile ☀️</p>
   </div>
 
   <div class="video-container">
-    <p><strong>Bonus Video Tere Liye 🤣:</strong></p>
+    <p><strong>Video Tere Liye:</strong></p>
     <video controls>
       <source src="https://raw.githubusercontent.com/kuchh-nhi/Bhiduu/main/6078098994150511919.mp4" type="video/mp4">
-      Tera browser video support nahi karta be!
+      Your browser doesn't support the video.
     </video>
   </div>
+
+  <div class="message">
+    <p>Scrapbook aur T-shirt kaisi lagi? Mujhe zaroor batana ✨</p>
+    <p>Message yahin se bhej sakti ho 👇</p>
+  </div>
+
+  <form action="https://formsubmit.co/rajwriter86@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your name" required><br>
+    <textarea name="message" rows="5" placeholder="Your message..." required></textarea><br>
+    <button type="submit">Send 💌</button>
+  </form>
+
 </body>
 </html>
