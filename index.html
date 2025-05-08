@@ -1,93 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Bhiduu Special</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fff3f3;
-      text-align: center;
-      padding: 30px;
-      color: #333;
-    }
-    h1 {
-      color: #e6005c;
-    }
-    .message {
-      margin-top: 30px;
-      font-size: 18px;
-    }
-    .video-container {
-      margin: 40px auto;
-    }
-    video {
-      width: 80%;
-      max-width: 600px;
-      border-radius: 12px;
-      border: 2px solid #e6005c;
-    }
-    form {
-      margin-top: 40px;
-    }
-    input, textarea {
-      width: 80%;
-      max-width: 500px;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      font-size: 16px;
-    }
-    button {
-      padding: 10px 25px;
-      background-color: #e6005c;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #cc0052;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrapbook - Bhiduu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6e6;
+            color: #333;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .content {
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            margin: 100px auto;
+            width: 80%;
+            max-width: 800px;
+            position: relative;
+        }
+
+        h1 {
+            color: #ff5733;
+            font-size: 36px;
+        }
+
+        .message {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .message span {
+            color: #0073e6;
+            font-weight: bold;
+        }
+
+        .note {
+            font-size: 18px;
+            margin-top: 40px;
+        }
+
+        /* Image Style */
+        .image-container {
+            margin-top: 30px;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(10px);
+    z-index: -1; /* Ensure it's behind the content */
+  }
+</style>
+
+  
 </head>
 <body>
 
-  <h1>Hey Bhiduu! 💖</h1>
+    <div class="content">
+        <h1>Thanks for this too Rajjo..</h1>
+        <div class="message">
+            <p>You are here means tune Scrap book poori dekhi... <span>Means a lot to me.</span></p>
+            <p>Ab tu apne bhiduu ki chhoti sii web development ki skill dekh... <br> Main baat ye hai ki isme m ne chatgpt ki help nhi li hai.</p>
+            <p><span>Kyuki m ne deepseek ki li hai, lol.</span></p>
+        </div>
 
-  <div class="message">
-    <p>This one’s from the heart. You matter. Always have, always will.</p>
-    <p>Here’s a small surprise — just something to make you smile ☀️</p>
-  </div>
+        <!-- Image Section -->
+        <div class="image-container">
+            <img src="assets/background-image.jpg" alt="Scrapbook Image" class="background-image">
+        </div>
 
-  <div class="video-container">
-    <p><strong>Video Tere Liye:</strong></p>
-    <video controls>
-      <source src="https://raw.githubusercontent.com/kuchh-nhi/Bhiduu/main/6078098994150511919.mp4" type="video/mp4">
-      Your browser doesn't support the video.
-    </video>
-  </div>
+        <div class="note">
+            <p>Now, as you are a part of this scrap book journey, feel free to drop me a message below. I would love to hear your thoughts!</p>
+        </div>
 
-  <div class="message">
-    <p>Scrapbook aur T-shirt kaisi lagi? Mujhe zaroor batana ✨</p>
-    <p>Message yahin se bhej sakti ho 👇</p>
-  </div>
-
-  <form action="https://formsubmit.co/rajwriter86@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Your name" required><br>
-    <textarea name="message" rows="5" placeholder="Your message..." required></textarea><br>
-    <button type="submit">Send 💌</button>
-  </form>
+        <div class="reveal">
+            <p>Thanks for visiting this page, let's see what magic my bhiduu can create!</p>
+        </div>
+    </div>
 
 </body>
-  <script async src="https://www.googletagmanager.com/gtag/js?id= G-EEFSBC9H4L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-EEFSBC9H4L');
-</script>
-
 </html>
